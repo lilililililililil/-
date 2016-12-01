@@ -37,6 +37,9 @@
 		8EDC7D701DF0136700DE9B97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC7D6E1DF0136700DE9B97 /* LaunchScreen.storyboard */; };
 		8EDC7D7B1DF0136700DE9B97 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC7D7A1DF0136700DE9B97 /* ____Tests.m */; };
 		8EDC7D861DF0136700DE9B97 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC7D851DF0136700DE9B97 /* ____UITests.m */; };
+		DBEE67E31DF02C6700E11630 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEE67E21DF02C6700E11630 /* TabBarViewController.m */; };
+		DBEE67E61DF02C8D00E11630 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEE67E51DF02C8D00E11630 /* CustomNavigationController.m */; };
+		DBEE67E91DF02CA500E11630 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEE67E81DF02CA500E11630 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +121,12 @@
 		8EDC7D811DF0136700DE9B97 /* 自学武术UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自学武术UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDC7D851DF0136700DE9B97 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		8EDC7D871DF0136700DE9B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEE67E11DF02C6700E11630 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		DBEE67E21DF02C6700E11630 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		DBEE67E41DF02C8D00E11630 /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		DBEE67E51DF02C8D00E11630 /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		DBEE67E71DF02CA500E11630 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DBEE67E81DF02CA500E11630 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		E1D53AB658B76B0F35BACF59 /* libPods-自学武术.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-自学武术.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF630994A515D3C95267E092 /* Pods-自学武术.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自学武术.debug.xcconfig"; path = "Pods/Target Support Files/Pods-自学武术/Pods-自学武术.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -233,6 +242,10 @@
 				8E793A8E1DF027150053AD45 /* PrefixHeader.pch */,
 				8EDC7D661DF0136700DE9B97 /* ViewController.h */,
 				8EDC7D671DF0136700DE9B97 /* ViewController.m */,
+				DBEE67E11DF02C6700E11630 /* TabBarViewController.h */,
+				DBEE67E21DF02C6700E11630 /* TabBarViewController.m */,
+				DBEE67E41DF02C8D00E11630 /* CustomNavigationController.h */,
+				DBEE67E51DF02C8D00E11630 /* CustomNavigationController.m */,
 				8EDC7D691DF0136700DE9B97 /* Main.storyboard */,
 				8EDC7D6C1DF0136700DE9B97 /* Assets.xcassets */,
 				8EDC7D6E1DF0136700DE9B97 /* LaunchScreen.storyboard */,
@@ -343,6 +356,8 @@
 			isa = PBXGroup;
 			children = (
 				8EDDF2301DF019870075914B /* 接口 */,
+				DBEE67E71DF02CA500E11630 /* HomeViewController.h */,
+				DBEE67E81DF02CA500E11630 /* HomeViewController.m */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -587,6 +602,7 @@
 				8E793A831DF021170053AD45 /* UIButton+WebCache.m in Sources */,
 				8E793A8A1DF021170053AD45 /* UIView+WebCacheOperation.m in Sources */,
 				8EDC7D651DF0136700DE9B97 /* AppDelegate.m in Sources */,
+				DBEE67E61DF02C8D00E11630 /* CustomNavigationController.m in Sources */,
 				8E793A821DF021170053AD45 /* SDWebImagePrefetcher.m in Sources */,
 				8E793A7F1DF021170053AD45 /* SDWebImageDownloader.m in Sources */,
 				8E793A4E1DF020400053AD45 /* CustomScrollView.m in Sources */,
@@ -597,7 +613,9 @@
 				8E793A791DF021170053AD45 /* NSData+ImageContentType.m in Sources */,
 				8E793A7D1DF021170053AD45 /* SDWebImageCompat.m in Sources */,
 				8EDC7D621DF0136700DE9B97 /* main.m in Sources */,
+				DBEE67E31DF02C6700E11630 /* TabBarViewController.m in Sources */,
 				8E793A7B1DF021170053AD45 /* SDImageCache.m in Sources */,
+				DBEE67E91DF02CA500E11630 /* HomeViewController.m in Sources */,
 				8E793A851DF021170053AD45 /* UIImage+MultiFormat.m in Sources */,
 				8E793A871DF021170053AD45 /* UIImageView+HighlightedWebCache.m in Sources */,
 				8E793A841DF021170053AD45 /* UIImage+GIF.m in Sources */,

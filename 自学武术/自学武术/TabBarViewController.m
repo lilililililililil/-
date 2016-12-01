@@ -7,6 +7,9 @@
 //
 
 #import "TabBarViewController.h"
+#import "CustomNavigationController.h"
+
+#import "HomeViewController.h"
 
 @interface TabBarViewController ()
 
