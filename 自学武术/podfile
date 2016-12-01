@@ -1,0 +1,10 @@
+
+platform:ios,'10.1'
+target '自学武术' do
+pod "AFNetworking”
+pod "MJExtension"
+pod "MJRefresh”
+pod "DACircularProgress"
+pod "pop"
+pod 'Masonry'
+end 

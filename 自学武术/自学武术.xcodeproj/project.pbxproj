@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12AFFA048FFF0C3D1246E849 /* libPods-自学武术.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D53AB658B76B0F35BACF59 /* libPods-自学武术.a */; };
 		8EDC7D621DF0136700DE9B97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC7D611DF0136700DE9B97 /* main.m */; };
 		8EDC7D651DF0136700DE9B97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC7D641DF0136700DE9B97 /* AppDelegate.m */; };
 		8EDC7D681DF0136700DE9B97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC7D671DF0136700DE9B97 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00B2E5EEF9603AB5EA8DB432 /* Pods-自学武术.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自学武术.release.xcconfig"; path = "Pods/Target Support Files/Pods-自学武术/Pods-自学武术.release.xcconfig"; sourceTree = "<group>"; };
 		8EDC7D5D1DF0136700DE9B97 /* 自学武术.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自学武术.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDC7D611DF0136700DE9B97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EDC7D631DF0136700DE9B97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		8EDC7D811DF0136700DE9B97 /* 自学武术UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自学武术UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDC7D851DF0136700DE9B97 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		8EDC7D871DF0136700DE9B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D53AB658B76B0F35BACF59 /* libPods-自学武术.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-自学武术.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF630994A515D3C95267E092 /* Pods-自学武术.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自学武术.debug.xcconfig"; path = "Pods/Target Support Files/Pods-自学武术/Pods-自学武术.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12AFFA048FFF0C3D1246E849 /* libPods-自学武术.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				8EDC7D791DF0136700DE9B97 /* 自学武术Tests */,
 				8EDC7D841DF0136700DE9B97 /* 自学武术UITests */,
 				8EDC7D5E1DF0136700DE9B97 /* Products */,
+				F561A279C6A87D42D211F8E5 /* Pods */,
+				DF455D64D10455E6F440BAA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +147,23 @@
 			path = "自学武术UITests";
 			sourceTree = "<group>";
 		};
+		DF455D64D10455E6F440BAA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1D53AB658B76B0F35BACF59 /* libPods-自学武术.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F561A279C6A87D42D211F8E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF630994A515D3C95267E092 /* Pods-自学武术.debug.xcconfig */,
+				00B2E5EEF9603AB5EA8DB432 /* Pods-自学武术.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EDC7D8A1DF0136700DE9B97 /* Build configuration list for PBXNativeTarget "自学武术" */;
 			buildPhases = (
+				4777C35328722ED83E1090A7 /* [CP] Check Pods Manifest.lock */,
 				8EDC7D591DF0136700DE9B97 /* Sources */,
 				8EDC7D5A1DF0136700DE9B97 /* Frameworks */,
 				8EDC7D5B1DF0136700DE9B97 /* Resources */,
+				BB87D7608EEE3FE4FB16C1D6 /* [CP] Embed Pods Frameworks */,
+				1C7AD865EED32E90F1868933 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +295,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C7AD865EED32E90F1868933 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-自学武术/Pods-自学武术-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4777C35328722ED83E1090A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB87D7608EEE3FE4FB16C1D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-自学武术/Pods-自学武术-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8EDC7D591DF0136700DE9B97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -348,6 +423,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -396,6 +472,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -422,6 +499,7 @@
 		};
 		8EDC7D8B1DF0136700DE9B97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF630994A515D3C95267E092 /* Pods-自学武术.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "自学武术/Info.plist";
@@ -433,6 +511,7 @@
 		};
 		8EDC7D8C1DF0136700DE9B97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B2E5EEF9603AB5EA8DB432 /* Pods-自学武术.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "自学武术/Info.plist";
@@ -498,7 +577,7 @@
 				8EDC7D891DF0136700DE9B97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		8EDC7D8A1DF0136700DE9B97 /* Build configuration list for PBXNativeTarget "自学武术" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +586,7 @@
 				8EDC7D8C1DF0136700DE9B97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		8EDC7D8D1DF0136700DE9B97 /* Build configuration list for PBXNativeTarget "自学武术Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +595,7 @@
 				8EDC7D8F1DF0136700DE9B97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		8EDC7D901DF0136700DE9B97 /* Build configuration list for PBXNativeTarget "自学武术UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +604,7 @@
 				8EDC7D921DF0136700DE9B97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
