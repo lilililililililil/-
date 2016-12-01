@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface CustomScrollView : UIScrollView
-
+@property(nonatomic,strong)NSMutableArray*titleArray;
+@property(nonatomic,strong)NSMutableArray*imageArray;
 @end

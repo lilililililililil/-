@@ -28,6 +28,7 @@
 		8E793A881DF021170053AD45 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E793A731DF021170053AD45 /* UIImageView+WebCache.m */; };
 		8E793A891DF021170053AD45 /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E793A751DF021170053AD45 /* UIView+WebCache.m */; };
 		8E793A8A1DF021170053AD45 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E793A771DF021170053AD45 /* UIView+WebCacheOperation.m */; };
+		8E793A8D1DF023E10053AD45 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E793A8C1DF023E10053AD45 /* CustomButton.m */; };
 		8EDC7D621DF0136700DE9B97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC7D611DF0136700DE9B97 /* main.m */; };
 		8EDC7D651DF0136700DE9B97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC7D641DF0136700DE9B97 /* AppDelegate.m */; };
 		8EDC7D681DF0136700DE9B97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC7D671DF0136700DE9B97 /* ViewController.m */; };
@@ -99,6 +100,8 @@
 		8E793A751DF021170053AD45 /* UIView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCache.m"; sourceTree = "<group>"; };
 		8E793A761DF021170053AD45 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		8E793A771DF021170053AD45 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		8E793A8B1DF023E10053AD45 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		8E793A8C1DF023E10053AD45 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
 		8EDC7D5D1DF0136700DE9B97 /* 自学武术.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自学武术.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDC7D611DF0136700DE9B97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EDC7D631DF0136700DE9B97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -300,6 +303,8 @@
 			children = (
 				8E793A4C1DF020400053AD45 /* CustomScrollView.h */,
 				8E793A4D1DF020400053AD45 /* CustomScrollView.m */,
+				8E793A8B1DF023E10053AD45 /* CustomButton.h */,
+				8E793A8C1DF023E10053AD45 /* CustomButton.m */,
 			);
 			path = "类";
 			sourceTree = "<group>";
@@ -572,6 +577,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E793A8D1DF023E10053AD45 /* CustomButton.m in Sources */,
 				8E793A891DF021170053AD45 /* UIView+WebCache.m in Sources */,
 				8EDC7D681DF0136700DE9B97 /* ViewController.m in Sources */,
 				8E793A811DF021170053AD45 /* SDWebImageManager.m in Sources */,
