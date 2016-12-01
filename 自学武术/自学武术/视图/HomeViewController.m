@@ -17,11 +17,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.tabBarController.tabBar.tintColor=[UIColor grayColor];
+    UIBarButtonItem*account=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"account" ] style:UIBarButtonItemStyleDone target:self action:@selector(accountway)];
+    UIBarButtonItem*search=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"search" ] style:UIBarButtonItemStyleDone target:self action:@selector(searchway)];
+    self.navigationItem.rightBarButtonItems=@[search,account];
     
     
     // Do any additional setup after loading the view.
 }
-
+-(void)searchway{
+    
+}
+-(void)accountway{
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
