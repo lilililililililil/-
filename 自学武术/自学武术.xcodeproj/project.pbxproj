@@ -108,6 +108,15 @@
 		8EDC7D5F1DF0136700DE9B97 /* 自学武术 */ = {
 			isa = PBXGroup;
 			children = (
+				8EDDF2261DF019870075914B /* 功法百科 */,
+				8EDDF2281DF019870075914B /* 功法秘籍 */,
+				8EDDF22A1DF019870075914B /* 类 */,
+				8EDDF22B1DF019870075914B /* 论武堂 */,
+				8EDDF22D1DF019870075914B /* 视图控制器 */,
+				8EDDF22F1DF019870075914B /* 首页 */,
+				8EDDF2311DF019870075914B /* 图片 */,
+				8EDDF2321DF019870075914B /* model */,
+				8EDDF2331DF019870075914B /* SDK */,
 				8EDC7D631DF0136700DE9B97 /* AppDelegate.h */,
 				8EDC7D641DF0136700DE9B97 /* AppDelegate.m */,
 				8EDC7D661DF0136700DE9B97 /* ViewController.h */,
@@ -145,6 +154,109 @@
 				8EDC7D871DF0136700DE9B97 /* Info.plist */,
 			);
 			path = "自学武术UITests";
+			sourceTree = "<group>";
+		};
+		8EDDF2261DF019870075914B /* 功法百科 */ = {
+			isa = PBXGroup;
+			children = (
+				8EDDF2271DF019870075914B /* 接口 */,
+			);
+			path = "功法百科";
+			sourceTree = "<group>";
+		};
+		8EDDF2271DF019870075914B /* 接口 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "接口";
+			sourceTree = "<group>";
+		};
+		8EDDF2281DF019870075914B /* 功法秘籍 */ = {
+			isa = PBXGroup;
+			children = (
+				8EDDF2291DF019870075914B /* 接口 */,
+			);
+			path = "功法秘籍";
+			sourceTree = "<group>";
+		};
+		8EDDF2291DF019870075914B /* 接口 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "接口";
+			sourceTree = "<group>";
+		};
+		8EDDF22A1DF019870075914B /* 类 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "类";
+			sourceTree = "<group>";
+		};
+		8EDDF22B1DF019870075914B /* 论武堂 */ = {
+			isa = PBXGroup;
+			children = (
+				8EDDF22C1DF019870075914B /* 接口 */,
+			);
+			path = "论武堂";
+			sourceTree = "<group>";
+		};
+		8EDDF22C1DF019870075914B /* 接口 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "接口";
+			sourceTree = "<group>";
+		};
+		8EDDF22D1DF019870075914B /* 视图控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				8EDDF22E1DF019870075914B /* 接口 */,
+			);
+			path = "视图控制器";
+			sourceTree = "<group>";
+		};
+		8EDDF22E1DF019870075914B /* 接口 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "接口";
+			sourceTree = "<group>";
+		};
+		8EDDF22F1DF019870075914B /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				8EDDF2301DF019870075914B /* 接口 */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		8EDDF2301DF019870075914B /* 接口 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "接口";
+			sourceTree = "<group>";
+		};
+		8EDDF2311DF019870075914B /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "图片";
+			sourceTree = "<group>";
+		};
+		8EDDF2321DF019870075914B /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		8EDDF2331DF019870075914B /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDK;
 			sourceTree = "<group>";
 		};
 		DF455D64D10455E6F440BAA7 /* Frameworks */ = {
