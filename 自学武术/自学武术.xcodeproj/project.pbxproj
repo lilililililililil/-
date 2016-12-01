@@ -60,7 +60,6 @@
 		00B2E5EEF9603AB5EA8DB432 /* Pods-自学武术.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自学武术.release.xcconfig"; path = "Pods/Target Support Files/Pods-自学武术/Pods-自学武术.release.xcconfig"; sourceTree = "<group>"; };
 		8E793A4C1DF020400053AD45 /* CustomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScrollView.h; sourceTree = "<group>"; };
 		8E793A4D1DF020400053AD45 /* CustomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScrollView.m; sourceTree = "<group>"; };
-		8E793A4F1DF020610053AD45 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8E793A511DF021170053AD45 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		8E793A521DF021170053AD45 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		8E793A531DF021170053AD45 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -102,6 +101,7 @@
 		8E793A771DF021170053AD45 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		8E793A8B1DF023E10053AD45 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
 		8E793A8C1DF023E10053AD45 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		8E793A8E1DF027150053AD45 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8EDC7D5D1DF0136700DE9B97 /* 自学武术.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自学武术.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDC7D611DF0136700DE9B97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EDC7D631DF0136700DE9B97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -230,7 +230,7 @@
 				8EDDF2331DF019870075914B /* SDK */,
 				8EDC7D631DF0136700DE9B97 /* AppDelegate.h */,
 				8EDC7D641DF0136700DE9B97 /* AppDelegate.m */,
-				8E793A4F1DF020610053AD45 /* PrefixHeader.pch */,
+				8E793A8E1DF027150053AD45 /* PrefixHeader.pch */,
 				8EDC7D661DF0136700DE9B97 /* ViewController.h */,
 				8EDC7D671DF0136700DE9B97 /* ViewController.m */,
 				8EDC7D691DF0136700DE9B97 /* Main.storyboard */,

@@ -13,7 +13,7 @@
     if(self==[super initWithFrame:frame]){
         self.contentSize=CGSizeMake(414*3, 100);
         for (int a=0; a<_titleArray.count; a++) {
-            UIButton*button 
+            
             
             
         }
