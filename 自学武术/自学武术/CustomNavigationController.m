@@ -7,6 +7,7 @@
 //
 
 #import "CustomNavigationController.h"
+#import "CustomNavigationBar.h"
 
 @interface CustomNavigationController ()
 
@@ -17,12 +18,49 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    UIImage * searchImage = [UIImage imageNamed:@"Search.png"];
+    UIImage * accountImage = [UIImage imageNamed:@"Account.png"];
+    searchImage = [searchImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    accountImage = [accountImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    UIBarButtonItem * search = [[UIBarButtonItem alloc] initWithImage:searchImage style:UIBarButtonItemStylePlain target:self action:@selector(search)];
+    UIBarButtonItem * account = [[UIBarButtonItem alloc] initWithImage:accountImage style:UIBarButtonItemStylePlain target:self action:@selector(account)];
+    
+    
+    if ([self.viewControllers firstObject]) {
+        
+        UIViewController * viewC = self.viewControllers[0];
+        viewC.navigationItem.rightBarButtonItems = @[account,search];
+        
+    }
+    
+    
+    [self setupNavigationBar];
+    
     
     
     
     
     
     // Do any additional setup after loading the view.
+}
+
+- (void)setupNavigationBar{
+    
+    [self setValue:[[CustomNavigationBar alloc] init] forKeyPath:@"NavigationBar"];
+    
+}
+
+- (void)search{
+    
+    
+    
+    
+    
+}
+
+- (void)account{
+    
 }
 
 - (void)didReceiveMemoryWarning {

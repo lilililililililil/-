@@ -40,6 +40,7 @@
 		DBEE67E31DF02C6700E11630 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEE67E21DF02C6700E11630 /* TabBarViewController.m */; };
 		DBEE67E61DF02C8D00E11630 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEE67E51DF02C8D00E11630 /* CustomNavigationController.m */; };
 		DBEE67E91DF02CA500E11630 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEE67E81DF02CA500E11630 /* HomeViewController.m */; };
+		DBF735061DF1004C005A2F58 /* CustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF735051DF1004C005A2F58 /* CustomNavigationBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +128,8 @@
 		DBEE67E51DF02C8D00E11630 /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
 		DBEE67E71DF02CA500E11630 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		DBEE67E81DF02CA500E11630 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DBF735041DF1004C005A2F58 /* CustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationBar.h; sourceTree = "<group>"; };
+		DBF735051DF1004C005A2F58 /* CustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationBar.m; sourceTree = "<group>"; };
 		E1D53AB658B76B0F35BACF59 /* libPods-自学武术.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-自学武术.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF630994A515D3C95267E092 /* Pods-自学武术.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自学武术.debug.xcconfig"; path = "Pods/Target Support Files/Pods-自学武术/Pods-自学武术.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -318,6 +321,8 @@
 				8E793A4D1DF020400053AD45 /* CustomScrollView.m */,
 				8E793A8B1DF023E10053AD45 /* CustomButton.h */,
 				8E793A8C1DF023E10053AD45 /* CustomButton.m */,
+				DBF735041DF1004C005A2F58 /* CustomNavigationBar.h */,
+				DBF735051DF1004C005A2F58 /* CustomNavigationBar.m */,
 			);
 			path = "类";
 			sourceTree = "<group>";
@@ -612,6 +617,7 @@
 				8E793A781DF021170053AD45 /* MKAnnotationView+WebCache.m in Sources */,
 				8E793A791DF021170053AD45 /* NSData+ImageContentType.m in Sources */,
 				8E793A7D1DF021170053AD45 /* SDWebImageCompat.m in Sources */,
+				DBF735061DF1004C005A2F58 /* CustomNavigationBar.m in Sources */,
 				8EDC7D621DF0136700DE9B97 /* main.m in Sources */,
 				DBEE67E31DF02C6700E11630 /* TabBarViewController.m in Sources */,
 				8E793A7B1DF021170053AD45 /* SDImageCache.m in Sources */,
