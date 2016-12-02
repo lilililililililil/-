@@ -9,10 +9,13 @@
 #import "CustomScrollView.h"
 
 @implementation CustomScrollView
-//-(instancetype)initWithFrame:(CGRect)frame{
-//    
-//    return  self;
-//}
+-(instancetype)initWithFrame:(CGRect)frame titleArray:(NSArray*)titlearray imageArray:(NSArray*)imagearray{
+    self=[super initWithFrame:frame];
+    self.titleArray=titlearray;
+    self.imageArray=imagearray;
+    
+    return  self;
+}
 
 -(void)layoutSubviews{
     [super layoutSubviews];
@@ -21,7 +24,17 @@
     NSArray*title=[NSArray array];
     NSArray*image=[NSArray array];
     int pagetotal=(int)_titleArray.count/15+(_titleArray.count%15==0?0:1);
+    
     self.contentSize=CGSizeMake(414*pagetotal,270);
+    //titlelabel
+    _tiltelabel=[[UILabel alloc]initWithFrame:CGRectMake(0, 0, self.width-60, 60)];
+    
+    [self addSubview:_tiltelabel];
+    //titlebutton
+    _titlebutton=[UIButton buttonWithType:UIButtonTypeCustom];
+    _tiltelabel.frame=CGRectMake(_tiltelabel.width, 0, 60, 60);
+    [self addSubview:_titlebutton];
+    //buttons
     for (int page=1; page<=pagetotal; page++) {
         if (pagetotal==1) {
             title=_titleArray;
@@ -36,7 +49,7 @@
         }
         
         for (int a=0; a<title.count; a++) {
-            CustomButton*button=[[CustomButton alloc]initWithFrame:CGRectMake((a%5)*(414/6)+10*(a%5+1), (a/5)*70+10*(a/5+1), 70, 70)];
+            CustomButton*button=[[CustomButton alloc]initWithFrame:CGRectMake((a%5)*(414/6)+10*(a%5+1), (a/5)*70+10*(a/5+1)+70, 70, 70)];
             button.tag=100+a;
             
             [button setTitle:title[a] forState:UIControlStateNormal];
@@ -50,7 +63,7 @@
             
         }
     }
-
+//
 
     
 }

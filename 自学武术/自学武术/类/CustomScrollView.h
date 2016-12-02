@@ -11,4 +11,6 @@
 @interface CustomScrollView : UIScrollView
 @property(nonatomic,strong)NSArray*titleArray;
 @property(nonatomic,strong)NSArray*imageArray;
+@property(nonatomic,strong)UILabel*tiltelabel;
+@property(nonatomic,strong)UIButton*titlebutton;
 @end
