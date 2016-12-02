@@ -24,7 +24,8 @@
 #define ScreenHeight [UIScreen mainScreen].bounds.size.height
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
 
-
+#import "UIView+Category.h"
+#import "CustomButton.h"
 #import "AFNetworking.h"
 #import "MJRefresh.h"
 #import "UIImageView+WebCache.h"

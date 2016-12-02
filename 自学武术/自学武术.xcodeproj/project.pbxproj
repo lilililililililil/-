@@ -37,6 +37,7 @@
 		8EDC7D701DF0136700DE9B97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC7D6E1DF0136700DE9B97 /* LaunchScreen.storyboard */; };
 		8EDC7D7B1DF0136700DE9B97 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC7D7A1DF0136700DE9B97 /* ____Tests.m */; };
 		8EDC7D861DF0136700DE9B97 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC7D851DF0136700DE9B97 /* ____UITests.m */; };
+		8EFD5AA01DF10B7D009724FB /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD5A9F1DF10B7D009724FB /* UIView+Category.m */; };
 		DBEE67E31DF02C6700E11630 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEE67E21DF02C6700E11630 /* TabBarViewController.m */; };
 		DBEE67E61DF02C8D00E11630 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEE67E51DF02C8D00E11630 /* CustomNavigationController.m */; };
 		DBEE67E91DF02CA500E11630 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEE67E81DF02CA500E11630 /* HomeViewController.m */; };
@@ -122,6 +123,8 @@
 		8EDC7D811DF0136700DE9B97 /* 自学武术UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自学武术UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDC7D851DF0136700DE9B97 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		8EDC7D871DF0136700DE9B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EFD5A9E1DF10B7D009724FB /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		8EFD5A9F1DF10B7D009724FB /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
 		DBEE67E11DF02C6700E11630 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
 		DBEE67E21DF02C6700E11630 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		DBEE67E41DF02C8D00E11630 /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
@@ -317,6 +320,8 @@
 		8EDDF22A1DF019870075914B /* 类 */ = {
 			isa = PBXGroup;
 			children = (
+				8EFD5A9E1DF10B7D009724FB /* UIView+Category.h */,
+				8EFD5A9F1DF10B7D009724FB /* UIView+Category.m */,
 				8E793A4C1DF020400053AD45 /* CustomScrollView.h */,
 				8E793A4D1DF020400053AD45 /* CustomScrollView.m */,
 				8E793A8B1DF023E10053AD45 /* CustomButton.h */,
@@ -621,6 +626,7 @@
 				8EDC7D621DF0136700DE9B97 /* main.m in Sources */,
 				DBEE67E31DF02C6700E11630 /* TabBarViewController.m in Sources */,
 				8E793A7B1DF021170053AD45 /* SDImageCache.m in Sources */,
+				8EFD5AA01DF10B7D009724FB /* UIView+Category.m in Sources */,
 				DBEE67E91DF02CA500E11630 /* HomeViewController.m in Sources */,
 				8E793A851DF021170053AD45 /* UIImage+MultiFormat.m in Sources */,
 				8E793A871DF021170053AD45 /* UIImageView+HighlightedWebCache.m in Sources */,
