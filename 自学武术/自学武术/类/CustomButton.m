@@ -14,23 +14,25 @@
     if (self = [super initWithFrame:frame]) {
         
         self.titleLabel.textAlignment = NSTextAlignmentCenter;
-        self.titleLabel.font = [UIFont systemFontOfSize:10];
+        self.titleLabel.font = [UIFont systemFontOfSize:13];
         [self setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-        self.imageView.image=[UIImage imageNamed:@"logo"];
+        
+        
         
     }
     return self;
 }
 - (void)layoutSubviews{
     [super layoutSubviews];
-    self.imageView.y = 0;
-    self.imageView.width = 50;
-    self.imageView.height = 50;
-    self.imageView.centerX = self.frame.size.width * 0.5;
+    self.imageView.frame=CGRectMake(0, 0, self.width*0.6, self.width*0.6);
+    self.imageView.centerX=self.width/2;
+    self.imageView.layer.cornerRadius=self.imageView.width/2.0;
+    self.imageView.layer.masksToBounds=YES;
+    
     self.titleLabel.width = self.frame.size.width;
-    self.titleLabel.y = CGRectGetMaxY(self.imageView.frame);
+    self.titleLabel.y = self.height-self.imageView.height;
     self.titleLabel.x = 0;
-    self.titleLabel.height = self.frame.size.height - self.titleLabel.y;
+    self.titleLabel.height = self.height - self.titleLabel.y;
     
 }
 

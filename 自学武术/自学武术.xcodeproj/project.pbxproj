@@ -8,8 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		12AFFA048FFF0C3D1246E849 /* libPods-自学武术.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D53AB658B76B0F35BACF59 /* libPods-自学武术.a */; };
-		8E793A4E1DF020400053AD45 /* CustomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E793A4D1DF020400053AD45 /* CustomScrollView.m */; };
+		8E1917FA1DF11C4D00CF5864 /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1917F91DF11C4D00CF5864 /* BookViewController.m */; };
+		8E1917FD1DF16E9500CF5864 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1917FC1DF16E9500CF5864 /* MyScrollView.m */; };
+		8E1918001DF16FB200CF5864 /* BaiKeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1917FF1DF16FB200CF5864 /* BaiKeViewController.m */; };
 		8E793A8D1DF023E10053AD45 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E793A8C1DF023E10053AD45 /* CustomButton.m */; };
+		8E9084CA1DF4F23600BF1314 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9084C91DF4F23600BF1314 /* Model.m */; };
+		8E9084D21DF5013E00BF1314 /* HomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9084CC1DF5013E00BF1314 /* HomeHeaderView.m */; };
+		8E9084D31DF5013E00BF1314 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9084CE1DF5013E00BF1314 /* HomeModel.m */; };
+		8E9084D41DF5013E00BF1314 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9084D01DF5013E00BF1314 /* HomeTableViewCell.m */; };
+		8E9084D51DF5013E00BF1314 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E9084D11DF5013E00BF1314 /* HomeTableViewCell.xib */; };
 		8EDC7D621DF0136700DE9B97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC7D611DF0136700DE9B97 /* main.m */; };
 		8EDC7D651DF0136700DE9B97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC7D641DF0136700DE9B97 /* AppDelegate.m */; };
 		8EDC7D681DF0136700DE9B97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC7D671DF0136700DE9B97 /* ViewController.m */; };
@@ -46,10 +53,6 @@
 		DBF7354D1DF110A7005A2F58 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF7353B1DF110A7005A2F58 /* UIImageView+HighlightedWebCache.m */; };
 		DBF7354E1DF110A7005A2F58 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF7353D1DF110A7005A2F58 /* UIImageView+WebCache.m */; };
 		DBF7354F1DF110A7005A2F58 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF7353F1DF110A7005A2F58 /* UIView+WebCacheOperation.m */; };
-		DBF735531DF14386005A2F58 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF735511DF14386005A2F58 /* HomeTableViewCell.m */; };
-		DBF735541DF14386005A2F58 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBF735521DF14386005A2F58 /* HomeTableViewCell.xib */; };
-		DBF735571DF156A8005A2F58 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF735561DF156A8005A2F58 /* HomeModel.m */; };
-		DBF7355A1DF17ACA005A2F58 /* HomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF735591DF17ACA005A2F58 /* HomeHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,11 +74,24 @@
 
 /* Begin PBXFileReference section */
 		00B2E5EEF9603AB5EA8DB432 /* Pods-自学武术.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自学武术.release.xcconfig"; path = "Pods/Target Support Files/Pods-自学武术/Pods-自学武术.release.xcconfig"; sourceTree = "<group>"; };
-		8E793A4C1DF020400053AD45 /* CustomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScrollView.h; sourceTree = "<group>"; };
-		8E793A4D1DF020400053AD45 /* CustomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScrollView.m; sourceTree = "<group>"; };
+		8E1917F81DF11C4D00CF5864 /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		8E1917F91DF11C4D00CF5864 /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
+		8E1917FB1DF16E9500CF5864 /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		8E1917FC1DF16E9500CF5864 /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
+		8E1917FE1DF16FB200CF5864 /* BaiKeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiKeViewController.h; sourceTree = "<group>"; };
+		8E1917FF1DF16FB200CF5864 /* BaiKeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiKeViewController.m; sourceTree = "<group>"; };
 		8E793A8B1DF023E10053AD45 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
 		8E793A8C1DF023E10053AD45 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
-		8E793A8E1DF027150053AD45 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8E793A8E1DF027150053AD45 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; wrapsLines = 0; };
+		8E9084C81DF4F23600BF1314 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Model.h; path = "自学武术/功法百科/Model.h"; sourceTree = SOURCE_ROOT; };
+		8E9084C91DF4F23600BF1314 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Model.m; path = "自学武术/功法百科/Model.m"; sourceTree = SOURCE_ROOT; };
+		8E9084CB1DF5013E00BF1314 /* HomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeHeaderView.h; sourceTree = "<group>"; };
+		8E9084CC1DF5013E00BF1314 /* HomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHeaderView.m; sourceTree = "<group>"; };
+		8E9084CD1DF5013E00BF1314 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		8E9084CE1DF5013E00BF1314 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		8E9084CF1DF5013E00BF1314 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		8E9084D01DF5013E00BF1314 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		8E9084D11DF5013E00BF1314 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 		8EDC7D5D1DF0136700DE9B97 /* 自学武术.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自学武术.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDC7D611DF0136700DE9B97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EDC7D631DF0136700DE9B97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -149,13 +165,6 @@
 		DBF7353D1DF110A7005A2F58 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		DBF7353E1DF110A7005A2F58 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		DBF7353F1DF110A7005A2F58 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		DBF735501DF14386005A2F58 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
-		DBF735511DF14386005A2F58 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
-		DBF735521DF14386005A2F58 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
-		DBF735551DF156A8005A2F58 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeModel.h; path = "自学武术/首页/HomeModel.h"; sourceTree = SOURCE_ROOT; };
-		DBF735561DF156A8005A2F58 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeModel.m; path = "自学武术/首页/HomeModel.m"; sourceTree = SOURCE_ROOT; };
-		DBF735581DF17ACA005A2F58 /* HomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeHeaderView.h; sourceTree = "<group>"; };
-		DBF735591DF17ACA005A2F58 /* HomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHeaderView.m; sourceTree = "<group>"; };
 		E1D53AB658B76B0F35BACF59 /* libPods-自学武术.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-自学武术.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF630994A515D3C95267E092 /* Pods-自学武术.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自学武术.debug.xcconfig"; path = "Pods/Target Support Files/Pods-自学武术/Pods-自学武术.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -268,6 +277,8 @@
 			isa = PBXGroup;
 			children = (
 				8EDDF2271DF019870075914B /* 接口 */,
+				8E1917FE1DF16FB200CF5864 /* BaiKeViewController.h */,
+				8E1917FF1DF16FB200CF5864 /* BaiKeViewController.m */,
 			);
 			path = "功法百科";
 			sourceTree = "<group>";
@@ -283,6 +294,8 @@
 			isa = PBXGroup;
 			children = (
 				8EDDF2291DF019870075914B /* 接口 */,
+				8E1917F81DF11C4D00CF5864 /* BookViewController.h */,
+				8E1917F91DF11C4D00CF5864 /* BookViewController.m */,
 			);
 			path = "功法秘籍";
 			sourceTree = "<group>";
@@ -290,6 +303,8 @@
 		8EDDF2291DF019870075914B /* 接口 */ = {
 			isa = PBXGroup;
 			children = (
+				8E9084C81DF4F23600BF1314 /* Model.h */,
+				8E9084C91DF4F23600BF1314 /* Model.m */,
 			);
 			path = "接口";
 			sourceTree = "<group>";
@@ -299,8 +314,8 @@
 			children = (
 				8EFD5A9E1DF10B7D009724FB /* UIView+Category.h */,
 				8EFD5A9F1DF10B7D009724FB /* UIView+Category.m */,
-				8E793A4C1DF020400053AD45 /* CustomScrollView.h */,
-				8E793A4D1DF020400053AD45 /* CustomScrollView.m */,
+				8E1917FB1DF16E9500CF5864 /* MyScrollView.h */,
+				8E1917FC1DF16E9500CF5864 /* MyScrollView.m */,
 				8E793A8B1DF023E10053AD45 /* CustomButton.h */,
 				8E793A8C1DF023E10053AD45 /* CustomButton.m */,
 				DBF735041DF1004C005A2F58 /* CustomNavigationBar.h */,
@@ -342,14 +357,16 @@
 		8EDDF22F1DF019870075914B /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				8E9084CB1DF5013E00BF1314 /* HomeHeaderView.h */,
+				8E9084CC1DF5013E00BF1314 /* HomeHeaderView.m */,
+				8E9084CD1DF5013E00BF1314 /* HomeModel.h */,
+				8E9084CE1DF5013E00BF1314 /* HomeModel.m */,
+				8E9084CF1DF5013E00BF1314 /* HomeTableViewCell.h */,
+				8E9084D01DF5013E00BF1314 /* HomeTableViewCell.m */,
+				8E9084D11DF5013E00BF1314 /* HomeTableViewCell.xib */,
 				8EDDF2301DF019870075914B /* 接口 */,
 				DBEE67E71DF02CA500E11630 /* HomeViewController.h */,
 				DBEE67E81DF02CA500E11630 /* HomeViewController.m */,
-				DBF735581DF17ACA005A2F58 /* HomeHeaderView.h */,
-				DBF735591DF17ACA005A2F58 /* HomeHeaderView.m */,
-				DBF735501DF14386005A2F58 /* HomeTableViewCell.h */,
-				DBF735511DF14386005A2F58 /* HomeTableViewCell.m */,
-				DBF735521DF14386005A2F58 /* HomeTableViewCell.xib */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -357,8 +374,6 @@
 		8EDDF2301DF019870075914B /* 接口 */ = {
 			isa = PBXGroup;
 			children = (
-				DBF735551DF156A8005A2F58 /* HomeModel.h */,
-				DBF735561DF156A8005A2F58 /* HomeModel.m */,
 			);
 			path = "接口";
 			sourceTree = "<group>";
@@ -584,7 +599,7 @@
 			files = (
 				8EDC7D701DF0136700DE9B97 /* LaunchScreen.storyboard in Resources */,
 				8EDC7D6D1DF0136700DE9B97 /* Assets.xcassets in Resources */,
-				DBF735541DF14386005A2F58 /* HomeTableViewCell.xib in Resources */,
+				8E9084D51DF5013E00BF1314 /* HomeTableViewCell.xib in Resources */,
 				8EDC7D6B1DF0136700DE9B97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -660,17 +675,15 @@
 			files = (
 				DBF735451DF110A7005A2F58 /* SDWebImageDownloader.m in Sources */,
 				8E793A8D1DF023E10053AD45 /* CustomButton.m in Sources */,
-				DBF735531DF14386005A2F58 /* HomeTableViewCell.m in Sources */,
 				DBF735171DF10E34005A2F58 /* TAAbstractDotView.m in Sources */,
+				8E9084CA1DF4F23600BF1314 /* Model.m in Sources */,
 				DBF735481DF110A7005A2F58 /* SDWebImagePrefetcher.m in Sources */,
-				DBF735571DF156A8005A2F58 /* HomeModel.m in Sources */,
 				DBF7354F1DF110A7005A2F58 /* UIView+WebCacheOperation.m in Sources */,
 				8EDC7D681DF0136700DE9B97 /* ViewController.m in Sources */,
 				8EDC7D651DF0136700DE9B97 /* AppDelegate.m in Sources */,
 				DBF7354B1DF110A7005A2F58 /* UIImage+MultiFormat.m in Sources */,
 				DBF7354C1DF110A7005A2F58 /* UIImage+WebP.m in Sources */,
 				DBEE67E61DF02C8D00E11630 /* CustomNavigationController.m in Sources */,
-				8E793A4E1DF020400053AD45 /* CustomScrollView.m in Sources */,
 				DBF7354E1DF110A7005A2F58 /* UIImageView+WebCache.m in Sources */,
 				DBF7351A1DF10E34005A2F58 /* TAPageControl.m in Sources */,
 				DBF7351B1DF10E34005A2F58 /* SDCollectionViewCell.m in Sources */,
@@ -682,18 +695,23 @@
 				DBF735411DF110A7005A2F58 /* NSData+ImageContentType.m in Sources */,
 				DBF7351C1DF10E34005A2F58 /* SDCycleScrollView.m in Sources */,
 				DBEE67E91DF02CA500E11630 /* HomeViewController.m in Sources */,
+				8E9084D21DF5013E00BF1314 /* HomeHeaderView.m in Sources */,
 				DBF735471DF110A7005A2F58 /* SDWebImageManager.m in Sources */,
 				DBF735441DF110A7005A2F58 /* SDWebImageDecoder.m in Sources */,
 				DBF735461DF110A7005A2F58 /* SDWebImageDownloaderOperation.m in Sources */,
 				DBF7351D1DF10E34005A2F58 /* UIView+SDExtension.m in Sources */,
 				DBF735191DF10E34005A2F58 /* TADotView.m in Sources */,
 				DBF735401DF110A7005A2F58 /* MKAnnotationView+WebCache.m in Sources */,
+				8E1917FD1DF16E9500CF5864 /* MyScrollView.m in Sources */,
 				DBF735431DF110A7005A2F58 /* SDWebImageCompat.m in Sources */,
 				DBF735491DF110A7005A2F58 /* UIButton+WebCache.m in Sources */,
-				DBF7355A1DF17ACA005A2F58 /* HomeHeaderView.m in Sources */,
+				8E1918001DF16FB200CF5864 /* BaiKeViewController.m in Sources */,
 				DBF7354D1DF110A7005A2F58 /* UIImageView+HighlightedWebCache.m in Sources */,
 				DBF7354A1DF110A7005A2F58 /* UIImage+GIF.m in Sources */,
+				8E9084D41DF5013E00BF1314 /* HomeTableViewCell.m in Sources */,
 				DBF735421DF110A7005A2F58 /* SDImageCache.m in Sources */,
+				8E9084D31DF5013E00BF1314 /* HomeModel.m in Sources */,
+				8E1917FA1DF11C4D00CF5864 /* BookViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

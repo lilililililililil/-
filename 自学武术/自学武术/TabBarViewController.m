@@ -10,6 +10,7 @@
 #import "CustomNavigationController.h"
 
 #import "HomeViewController.h"
+#import "BookViewController.h"
 
 @interface TabBarViewController ()
 
@@ -34,7 +35,7 @@
 - (void)setupChildVCs{
     
     [self addChildVC:[[HomeViewController alloc] init] title:@"首页" image:@"首页"];
-    
+    [self addChildVC:[[BookViewController alloc] init] title:@"功法秘籍" image:@"功法秘籍"];
     
     
     
