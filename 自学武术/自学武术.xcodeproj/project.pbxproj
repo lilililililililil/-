@@ -46,6 +46,10 @@
 		DBF7354D1DF110A7005A2F58 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF7353B1DF110A7005A2F58 /* UIImageView+HighlightedWebCache.m */; };
 		DBF7354E1DF110A7005A2F58 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF7353D1DF110A7005A2F58 /* UIImageView+WebCache.m */; };
 		DBF7354F1DF110A7005A2F58 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF7353F1DF110A7005A2F58 /* UIView+WebCacheOperation.m */; };
+		DBF735531DF14386005A2F58 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF735511DF14386005A2F58 /* HomeTableViewCell.m */; };
+		DBF735541DF14386005A2F58 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBF735521DF14386005A2F58 /* HomeTableViewCell.xib */; };
+		DBF735571DF156A8005A2F58 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF735561DF156A8005A2F58 /* HomeModel.m */; };
+		DBF7355A1DF17ACA005A2F58 /* HomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF735591DF17ACA005A2F58 /* HomeHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +149,13 @@
 		DBF7353D1DF110A7005A2F58 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		DBF7353E1DF110A7005A2F58 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		DBF7353F1DF110A7005A2F58 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		DBF735501DF14386005A2F58 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		DBF735511DF14386005A2F58 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		DBF735521DF14386005A2F58 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		DBF735551DF156A8005A2F58 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeModel.h; path = "自学武术/首页/HomeModel.h"; sourceTree = SOURCE_ROOT; };
+		DBF735561DF156A8005A2F58 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeModel.m; path = "自学武术/首页/HomeModel.m"; sourceTree = SOURCE_ROOT; };
+		DBF735581DF17ACA005A2F58 /* HomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeHeaderView.h; sourceTree = "<group>"; };
+		DBF735591DF17ACA005A2F58 /* HomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHeaderView.m; sourceTree = "<group>"; };
 		E1D53AB658B76B0F35BACF59 /* libPods-自学武术.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-自学武术.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF630994A515D3C95267E092 /* Pods-自学武术.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自学武术.debug.xcconfig"; path = "Pods/Target Support Files/Pods-自学武术/Pods-自学武术.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -334,6 +345,11 @@
 				8EDDF2301DF019870075914B /* 接口 */,
 				DBEE67E71DF02CA500E11630 /* HomeViewController.h */,
 				DBEE67E81DF02CA500E11630 /* HomeViewController.m */,
+				DBF735581DF17ACA005A2F58 /* HomeHeaderView.h */,
+				DBF735591DF17ACA005A2F58 /* HomeHeaderView.m */,
+				DBF735501DF14386005A2F58 /* HomeTableViewCell.h */,
+				DBF735511DF14386005A2F58 /* HomeTableViewCell.m */,
+				DBF735521DF14386005A2F58 /* HomeTableViewCell.xib */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -341,6 +357,8 @@
 		8EDDF2301DF019870075914B /* 接口 */ = {
 			isa = PBXGroup;
 			children = (
+				DBF735551DF156A8005A2F58 /* HomeModel.h */,
+				DBF735561DF156A8005A2F58 /* HomeModel.m */,
 			);
 			path = "接口";
 			sourceTree = "<group>";
@@ -566,6 +584,7 @@
 			files = (
 				8EDC7D701DF0136700DE9B97 /* LaunchScreen.storyboard in Resources */,
 				8EDC7D6D1DF0136700DE9B97 /* Assets.xcassets in Resources */,
+				DBF735541DF14386005A2F58 /* HomeTableViewCell.xib in Resources */,
 				8EDC7D6B1DF0136700DE9B97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -641,8 +660,10 @@
 			files = (
 				DBF735451DF110A7005A2F58 /* SDWebImageDownloader.m in Sources */,
 				8E793A8D1DF023E10053AD45 /* CustomButton.m in Sources */,
+				DBF735531DF14386005A2F58 /* HomeTableViewCell.m in Sources */,
 				DBF735171DF10E34005A2F58 /* TAAbstractDotView.m in Sources */,
 				DBF735481DF110A7005A2F58 /* SDWebImagePrefetcher.m in Sources */,
+				DBF735571DF156A8005A2F58 /* HomeModel.m in Sources */,
 				DBF7354F1DF110A7005A2F58 /* UIView+WebCacheOperation.m in Sources */,
 				8EDC7D681DF0136700DE9B97 /* ViewController.m in Sources */,
 				8EDC7D651DF0136700DE9B97 /* AppDelegate.m in Sources */,
@@ -669,6 +690,7 @@
 				DBF735401DF110A7005A2F58 /* MKAnnotationView+WebCache.m in Sources */,
 				DBF735431DF110A7005A2F58 /* SDWebImageCompat.m in Sources */,
 				DBF735491DF110A7005A2F58 /* UIButton+WebCache.m in Sources */,
+				DBF7355A1DF17ACA005A2F58 /* HomeHeaderView.m in Sources */,
 				DBF7354D1DF110A7005A2F58 /* UIImageView+HighlightedWebCache.m in Sources */,
 				DBF7354A1DF110A7005A2F58 /* UIImage+GIF.m in Sources */,
 				DBF735421DF110A7005A2F58 /* SDImageCache.m in Sources */,
