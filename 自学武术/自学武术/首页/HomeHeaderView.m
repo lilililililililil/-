@@ -37,7 +37,8 @@
         
         self.moreButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [self.moreButton setTitle:@"更多" forState:UIControlStateNormal];
-        [self.moreButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+        [self.moreButton setTitleColor:[UIColor colorWithRed:57 / 256.0 green:169 / 256.0 blue:231 / 256.0 alpha:1.0] forState:UIControlStateNormal];
+        [self.moreButton setTitleColor:[UIColor blueColor] forState:UIControlStateHighlighted];
         self.moreButton.titleLabel.font = [UIFont systemFontOfSize:15];
         [self.moreButton setImage:[UIImage imageNamed:@"arrow.png"] forState:UIControlStateNormal];
         [self.moreButton setTitleEdgeInsets:UIEdgeInsetsMake(0, 0, 0, 15)];

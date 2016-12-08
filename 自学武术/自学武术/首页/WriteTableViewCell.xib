@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="133" id="KGk-i7-Jjw" customClass="WriteTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="133"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="133"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kam-d1-9D3">
+                        <rect key="frame" x="8" y="8" width="297" height="116.5"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="说说你的看法..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rob-lY-k6c">
+                                <rect key="frame" x="0.0" y="0.0" width="297" height="76.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u3g-ZT-mvp">
+                                <rect key="frame" x="227" y="81.5" width="60" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="NDw-9Z-chu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="发表评论">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="rob-lY-k6c" secondAttribute="trailing" id="IW3-HW-eQl"/>
+                            <constraint firstAttribute="bottom" secondItem="u3g-ZT-mvp" secondAttribute="bottom" constant="5" id="ScX-rQ-qQf"/>
+                            <constraint firstItem="u3g-ZT-mvp" firstAttribute="top" secondItem="rob-lY-k6c" secondAttribute="bottom" constant="5" id="TQo-BR-Rlh"/>
+                            <constraint firstItem="rob-lY-k6c" firstAttribute="top" secondItem="kam-d1-9D3" secondAttribute="top" id="UMU-BV-WOe"/>
+                            <constraint firstAttribute="bottom" secondItem="rob-lY-k6c" secondAttribute="bottom" constant="40" id="h2m-xy-grl"/>
+                            <constraint firstItem="rob-lY-k6c" firstAttribute="leading" secondItem="kam-d1-9D3" secondAttribute="leading" id="jcT-I7-LJN"/>
+                            <constraint firstAttribute="trailing" secondItem="u3g-ZT-mvp" secondAttribute="trailing" constant="10" id="zm0-xf-ory"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="kam-d1-9D3" secondAttribute="bottom" constant="8" id="8Pn-ST-qc1"/>
+                    <constraint firstItem="kam-d1-9D3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="9db-CV-QwO"/>
+                    <constraint firstAttribute="trailing" secondItem="kam-d1-9D3" secondAttribute="trailing" constant="15" id="RtH-IG-rzg"/>
+                    <constraint firstItem="kam-d1-9D3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="T1x-Ys-aXF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="publishButton" destination="u3g-ZT-mvp" id="qyT-1U-gFJ"/>
+                <outlet property="textView" destination="rob-lY-k6c" id="6ao-Oj-X4S"/>
+                <outlet property="view" destination="kam-d1-9D3" id="OuM-Xn-AxL"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="98.5"/>
+        </tableViewCell>
+    </objects>
+</document>

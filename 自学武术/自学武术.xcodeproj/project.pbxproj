@@ -26,9 +26,27 @@
 		8EDC7D7B1DF0136700DE9B97 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC7D7A1DF0136700DE9B97 /* ____Tests.m */; };
 		8EDC7D861DF0136700DE9B97 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC7D851DF0136700DE9B97 /* ____UITests.m */; };
 		8EFD5AA01DF10B7D009724FB /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD5A9F1DF10B7D009724FB /* UIView+Category.m */; };
+		DB3550681DF56C5F007B5D90 /* MoreInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3550671DF56C5F007B5D90 /* MoreInfoViewController.m */; };
+		DBEBC3321DF64FC100E2CBE7 /* CycleImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEBC3301DF64FC100E2CBE7 /* CycleImageViewController.m */; };
+		DBEBC3331DF64FC100E2CBE7 /* CycleImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBEBC3311DF64FC100E2CBE7 /* CycleImageViewController.xib */; };
+		DBEBC3361DF667B400E2CBE7 /* CIVCTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEBC3351DF667B400E2CBE7 /* CIVCTableViewHeader.m */; };
+		DBEBC3381DF667C200E2CBE7 /* CIVCTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBEBC3371DF667C200E2CBE7 /* CIVCTableViewHeader.xib */; };
+		DBEBC33B1DF6CBCC00E2CBE7 /* UIButton+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEBC33A1DF6CBCC00E2CBE7 /* UIButton+Create.m */; };
+		DBECCEEA1DF8DF0C00D6953A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBECCEE91DF8DF0C00D6953A /* DetailViewController.xib */; };
 		DBEE67E31DF02C6700E11630 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEE67E21DF02C6700E11630 /* TabBarViewController.m */; };
 		DBEE67E61DF02C8D00E11630 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEE67E51DF02C8D00E11630 /* CustomNavigationController.m */; };
 		DBEE67E91DF02CA500E11630 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEE67E81DF02CA500E11630 /* HomeViewController.m */; };
+		DBF38B541DF7AA5E002185BF /* WriteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF38B521DF7AA5E002185BF /* WriteTableViewCell.m */; };
+		DBF38B551DF7AA5E002185BF /* WriteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBF38B531DF7AA5E002185BF /* WriteTableViewCell.xib */; };
+		DBF38B5D1DF80400002185BF /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF38B5C1DF80400002185BF /* NSString+URLEncoding.m */; };
+		DBF38BBA1DF81CF9002185BF /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF38BB11DF81CF9002185BF /* SVIndefiniteAnimatedView.m */; };
+		DBF38BBB1DF81CF9002185BF /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF38BB31DF81CF9002185BF /* SVProgressAnimatedView.m */; };
+		DBF38BBC1DF81CF9002185BF /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DBF38BB51DF81CF9002185BF /* SVProgressHUD.bundle */; };
+		DBF38BBD1DF81CF9002185BF /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF38BB71DF81CF9002185BF /* SVProgressHUD.m */; };
+		DBF38BBE1DF81CF9002185BF /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF38BB91DF81CF9002185BF /* SVRadialGradientLayer.m */; };
+		DBF38BC21DF81DAC002185BF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF38BC01DF81DAC002185BF /* DetailViewController.m */; };
+		DBF38BC61DF820F9002185BF /* DetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF38BC51DF820F9002185BF /* DetailHeaderView.m */; };
+		DBF38BC81DF82106002185BF /* DetailHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBF38BC71DF82106002185BF /* DetailHeaderView.xib */; };
 		DBF735061DF1004C005A2F58 /* CustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF735051DF1004C005A2F58 /* CustomNavigationBar.m */; };
 		DBF735171DF10E34005A2F58 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF7350A1DF10E34005A2F58 /* TAAbstractDotView.m */; };
 		DBF735181DF10E34005A2F58 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF7350C1DF10E34005A2F58 /* TAAnimatedDotView.m */; };
@@ -110,12 +128,43 @@
 		8EDC7D871DF0136700DE9B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EFD5A9E1DF10B7D009724FB /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
 		8EFD5A9F1DF10B7D009724FB /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		DB3550661DF56C5F007B5D90 /* MoreInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreInfoViewController.h; sourceTree = "<group>"; };
+		DB3550671DF56C5F007B5D90 /* MoreInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreInfoViewController.m; sourceTree = "<group>"; };
+		DBEBC32F1DF64FC100E2CBE7 /* CycleImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleImageViewController.h; sourceTree = "<group>"; };
+		DBEBC3301DF64FC100E2CBE7 /* CycleImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleImageViewController.m; sourceTree = "<group>"; };
+		DBEBC3311DF64FC100E2CBE7 /* CycleImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CycleImageViewController.xib; sourceTree = "<group>"; };
+		DBEBC3341DF667B400E2CBE7 /* CIVCTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIVCTableViewHeader.h; sourceTree = "<group>"; };
+		DBEBC3351DF667B400E2CBE7 /* CIVCTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIVCTableViewHeader.m; sourceTree = "<group>"; };
+		DBEBC3371DF667C200E2CBE7 /* CIVCTableViewHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIVCTableViewHeader.xib; sourceTree = "<group>"; };
+		DBEBC3391DF6CBCC00E2CBE7 /* UIButton+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Create.h"; sourceTree = "<group>"; };
+		DBEBC33A1DF6CBCC00E2CBE7 /* UIButton+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Create.m"; sourceTree = "<group>"; };
+		DBECCEE91DF8DF0C00D6953A /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		DBEE67E11DF02C6700E11630 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
 		DBEE67E21DF02C6700E11630 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		DBEE67E41DF02C8D00E11630 /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
 		DBEE67E51DF02C8D00E11630 /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
 		DBEE67E71DF02CA500E11630 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		DBEE67E81DF02CA500E11630 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DBF38B511DF7AA5E002185BF /* WriteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteTableViewCell.h; sourceTree = "<group>"; };
+		DBF38B521DF7AA5E002185BF /* WriteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteTableViewCell.m; sourceTree = "<group>"; };
+		DBF38B531DF7AA5E002185BF /* WriteTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WriteTableViewCell.xib; sourceTree = "<group>"; };
+		DBF38B5B1DF80400002185BF /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		DBF38B5C1DF80400002185BF /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		DBF38BB01DF81CF9002185BF /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		DBF38BB11DF81CF9002185BF /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		DBF38BB21DF81CF9002185BF /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		DBF38BB31DF81CF9002185BF /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		DBF38BB41DF81CF9002185BF /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		DBF38BB51DF81CF9002185BF /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		DBF38BB61DF81CF9002185BF /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		DBF38BB71DF81CF9002185BF /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		DBF38BB81DF81CF9002185BF /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		DBF38BB91DF81CF9002185BF /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		DBF38BBF1DF81DAC002185BF /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DBF38BC01DF81DAC002185BF /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DBF38BC41DF820F9002185BF /* DetailHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailHeaderView.h; sourceTree = "<group>"; };
+		DBF38BC51DF820F9002185BF /* DetailHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailHeaderView.m; sourceTree = "<group>"; };
+		DBF38BC71DF82106002185BF /* DetailHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailHeaderView.xib; sourceTree = "<group>"; };
 		DBF735041DF1004C005A2F58 /* CustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationBar.h; sourceTree = "<group>"; };
 		DBF735051DF1004C005A2F58 /* CustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationBar.m; sourceTree = "<group>"; };
 		DBF735091DF10E34005A2F58 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
@@ -314,6 +363,10 @@
 			children = (
 				8EFD5A9E1DF10B7D009724FB /* UIView+Category.h */,
 				8EFD5A9F1DF10B7D009724FB /* UIView+Category.m */,
+				DBEBC3391DF6CBCC00E2CBE7 /* UIButton+Create.h */,
+				DBEBC33A1DF6CBCC00E2CBE7 /* UIButton+Create.m */,
+				DBF38B5B1DF80400002185BF /* NSString+URLEncoding.h */,
+				DBF38B5C1DF80400002185BF /* NSString+URLEncoding.m */,
 				8E1917FB1DF16E9500CF5864 /* MyScrollView.h */,
 				8E1917FC1DF16E9500CF5864 /* MyScrollView.m */,
 				8E793A8B1DF023E10053AD45 /* CustomButton.h */,
@@ -367,6 +420,23 @@
 				8EDDF2301DF019870075914B /* 接口 */,
 				DBEE67E71DF02CA500E11630 /* HomeViewController.h */,
 				DBEE67E81DF02CA500E11630 /* HomeViewController.m */,
+				DB3550661DF56C5F007B5D90 /* MoreInfoViewController.h */,
+				DB3550671DF56C5F007B5D90 /* MoreInfoViewController.m */,
+				DBF38BBF1DF81DAC002185BF /* DetailViewController.h */,
+				DBF38BC01DF81DAC002185BF /* DetailViewController.m */,
+				DBECCEE91DF8DF0C00D6953A /* DetailViewController.xib */,
+				DBF38BC41DF820F9002185BF /* DetailHeaderView.h */,
+				DBF38BC51DF820F9002185BF /* DetailHeaderView.m */,
+				DBF38BC71DF82106002185BF /* DetailHeaderView.xib */,
+				DBEBC32F1DF64FC100E2CBE7 /* CycleImageViewController.h */,
+				DBEBC3301DF64FC100E2CBE7 /* CycleImageViewController.m */,
+				DBEBC3311DF64FC100E2CBE7 /* CycleImageViewController.xib */,
+				DBEBC3341DF667B400E2CBE7 /* CIVCTableViewHeader.h */,
+				DBEBC3351DF667B400E2CBE7 /* CIVCTableViewHeader.m */,
+				DBEBC3371DF667C200E2CBE7 /* CIVCTableViewHeader.xib */,
+				DBF38B511DF7AA5E002185BF /* WriteTableViewCell.h */,
+				DBF38B521DF7AA5E002185BF /* WriteTableViewCell.m */,
+				DBF38B531DF7AA5E002185BF /* WriteTableViewCell.xib */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -395,10 +465,28 @@
 		8EDDF2331DF019870075914B /* SDK */ = {
 			isa = PBXGroup;
 			children = (
+				DBF38BAF1DF81CF9002185BF /* SVProgressHUD */,
 				DBF735071DF10E34005A2F58 /* SDCycleScrollView */,
 				DBF7351E1DF110A7005A2F58 /* SDWebImage */,
 			);
 			path = SDK;
+			sourceTree = "<group>";
+		};
+		DBF38BAF1DF81CF9002185BF /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DBF38BB01DF81CF9002185BF /* SVIndefiniteAnimatedView.h */,
+				DBF38BB11DF81CF9002185BF /* SVIndefiniteAnimatedView.m */,
+				DBF38BB21DF81CF9002185BF /* SVProgressAnimatedView.h */,
+				DBF38BB31DF81CF9002185BF /* SVProgressAnimatedView.m */,
+				DBF38BB41DF81CF9002185BF /* SVProgressHUD-Prefix.pch */,
+				DBF38BB51DF81CF9002185BF /* SVProgressHUD.bundle */,
+				DBF38BB61DF81CF9002185BF /* SVProgressHUD.h */,
+				DBF38BB71DF81CF9002185BF /* SVProgressHUD.m */,
+				DBF38BB81DF81CF9002185BF /* SVRadialGradientLayer.h */,
+				DBF38BB91DF81CF9002185BF /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 		DBF735071DF10E34005A2F58 /* SDCycleScrollView */ = {
@@ -600,6 +688,12 @@
 				8EDC7D701DF0136700DE9B97 /* LaunchScreen.storyboard in Resources */,
 				8EDC7D6D1DF0136700DE9B97 /* Assets.xcassets in Resources */,
 				8E9084D51DF5013E00BF1314 /* HomeTableViewCell.xib in Resources */,
+				DBF38BBC1DF81CF9002185BF /* SVProgressHUD.bundle in Resources */,
+				DBEBC3381DF667C200E2CBE7 /* CIVCTableViewHeader.xib in Resources */,
+				DBF38BC81DF82106002185BF /* DetailHeaderView.xib in Resources */,
+				DBEBC3331DF64FC100E2CBE7 /* CycleImageViewController.xib in Resources */,
+				DBECCEEA1DF8DF0C00D6953A /* DetailViewController.xib in Resources */,
+				DBF38B551DF7AA5E002185BF /* WriteTableViewCell.xib in Resources */,
 				8EDC7D6B1DF0136700DE9B97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -674,13 +768,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBF735451DF110A7005A2F58 /* SDWebImageDownloader.m in Sources */,
+				DBF38B5D1DF80400002185BF /* NSString+URLEncoding.m in Sources */,
 				8E793A8D1DF023E10053AD45 /* CustomButton.m in Sources */,
 				DBF735171DF10E34005A2F58 /* TAAbstractDotView.m in Sources */,
 				8E9084CA1DF4F23600BF1314 /* Model.m in Sources */,
 				DBF735481DF110A7005A2F58 /* SDWebImagePrefetcher.m in Sources */,
+				DBEBC33B1DF6CBCC00E2CBE7 /* UIButton+Create.m in Sources */,
 				DBF7354F1DF110A7005A2F58 /* UIView+WebCacheOperation.m in Sources */,
 				8EDC7D681DF0136700DE9B97 /* ViewController.m in Sources */,
+				DBF38BBE1DF81CF9002185BF /* SVRadialGradientLayer.m in Sources */,
 				8EDC7D651DF0136700DE9B97 /* AppDelegate.m in Sources */,
+				DBF38BBD1DF81CF9002185BF /* SVProgressHUD.m in Sources */,
+				DBF38BC61DF820F9002185BF /* DetailHeaderView.m in Sources */,
 				DBF7354B1DF110A7005A2F58 /* UIImage+MultiFormat.m in Sources */,
 				DBF7354C1DF110A7005A2F58 /* UIImage+WebP.m in Sources */,
 				DBEE67E61DF02C8D00E11630 /* CustomNavigationController.m in Sources */,
@@ -691,13 +790,17 @@
 				DBF735061DF1004C005A2F58 /* CustomNavigationBar.m in Sources */,
 				8EDC7D621DF0136700DE9B97 /* main.m in Sources */,
 				DBEE67E31DF02C6700E11630 /* TabBarViewController.m in Sources */,
+				DBEBC3361DF667B400E2CBE7 /* CIVCTableViewHeader.m in Sources */,
 				8EFD5AA01DF10B7D009724FB /* UIView+Category.m in Sources */,
+				DBEBC3321DF64FC100E2CBE7 /* CycleImageViewController.m in Sources */,
 				DBF735411DF110A7005A2F58 /* NSData+ImageContentType.m in Sources */,
 				DBF7351C1DF10E34005A2F58 /* SDCycleScrollView.m in Sources */,
 				DBEE67E91DF02CA500E11630 /* HomeViewController.m in Sources */,
+				DBF38BBA1DF81CF9002185BF /* SVIndefiniteAnimatedView.m in Sources */,
 				8E9084D21DF5013E00BF1314 /* HomeHeaderView.m in Sources */,
 				DBF735471DF110A7005A2F58 /* SDWebImageManager.m in Sources */,
 				DBF735441DF110A7005A2F58 /* SDWebImageDecoder.m in Sources */,
+				DB3550681DF56C5F007B5D90 /* MoreInfoViewController.m in Sources */,
 				DBF735461DF110A7005A2F58 /* SDWebImageDownloaderOperation.m in Sources */,
 				DBF7351D1DF10E34005A2F58 /* UIView+SDExtension.m in Sources */,
 				DBF735191DF10E34005A2F58 /* TADotView.m in Sources */,
@@ -705,13 +808,16 @@
 				8E1917FD1DF16E9500CF5864 /* MyScrollView.m in Sources */,
 				DBF735431DF110A7005A2F58 /* SDWebImageCompat.m in Sources */,
 				DBF735491DF110A7005A2F58 /* UIButton+WebCache.m in Sources */,
+				DBF38B541DF7AA5E002185BF /* WriteTableViewCell.m in Sources */,
 				8E1918001DF16FB200CF5864 /* BaiKeViewController.m in Sources */,
 				DBF7354D1DF110A7005A2F58 /* UIImageView+HighlightedWebCache.m in Sources */,
 				DBF7354A1DF110A7005A2F58 /* UIImage+GIF.m in Sources */,
 				8E9084D41DF5013E00BF1314 /* HomeTableViewCell.m in Sources */,
+				DBF38BC21DF81DAC002185BF /* DetailViewController.m in Sources */,
 				DBF735421DF110A7005A2F58 /* SDImageCache.m in Sources */,
 				8E9084D31DF5013E00BF1314 /* HomeModel.m in Sources */,
 				8E1917FA1DF11C4D00CF5864 /* BookViewController.m in Sources */,
+				DBF38BBB1DF81CF9002185BF /* SVProgressAnimatedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
